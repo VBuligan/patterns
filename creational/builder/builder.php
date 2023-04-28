@@ -69,21 +69,10 @@ class Section{
     }
 }
 
-class Header extends Section{
-
-}
-
-class Body extends Section{
-
-}
-
-class Footer extends Section{
-
-}
-
-class Custom extends Section{
-
-}
+class Header extends Section{}
+class Body extends Section{}
+class Footer extends Section{}
+class Custom extends Section{}
 
 class Message{
     private string $text = '';
